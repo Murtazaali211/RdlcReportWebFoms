@@ -1,0 +1,9 @@
+/Microsoft.VisualBasic.Core.targets
+/Microsoft.CSharp.Core.targets
+/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Microsoft.CodeAnalysis.Scripting.dll
+/Microsoft.CodeAnalysis.VisualBasic.dll
+/Microsoft.CodeAnalysis.dll
+/Microsoft.DiaSymReader.Native.amd64.dll
+/Microsoft.DiaSymReader.Native.x86.dll
+/Microsoft.Managed.Core.targets

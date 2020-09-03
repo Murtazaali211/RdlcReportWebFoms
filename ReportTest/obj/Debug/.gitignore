@@ -1,0 +1,8 @@
+*.pdb
+/RdlCompile.cache
+/RdlCompile.compiled
+/ReportTest.csproj.CopyComplete
+/ReportTest.csproj.CoreCompileInputs.cache
+/ReportTest.csproj.FileListAbsolute.txt
+/ReportTest.csprojAssemblyReference.cache
+/ReportTest.dll
