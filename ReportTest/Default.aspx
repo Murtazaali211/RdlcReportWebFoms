@@ -10,10 +10,11 @@
             <div style="margin-bottom:10px; margin-left:10px; margin-top:10px;">
                 <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
                 <asp:Button ID="btnShow" runat="server" Text="Show Report" OnClick="btnShow_Click"></asp:Button>
+                <asp:GridView ID="dgvData" runat="server"></asp:GridView>
             </div>
-            <div style="margin-bottom:10px; margin-left:10px; margin-top:10px;">
+            <div style="height:1000px;margin-bottom:10px; margin-left:10px; margin-top:10px;">
             <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-            <rsweb:ReportViewer ID="ReportViewer1" runat="server" Width="100%"></rsweb:ReportViewer>
+            <rsweb:ReportViewer ID="ReportViewer1" runat="server" Width="100%" SizeToReportContent="True"></rsweb:ReportViewer>
             </div>
         </form>
     </body>
