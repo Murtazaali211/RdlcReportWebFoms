@@ -185,7 +185,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -404,13 +403,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>1.35417in</Height>
+    <Height>0.6875in</Height>
     <Style />
   </Body>
   <Width>8.5in</Width>
   <Page>
     <PageHeader>
-      <Height>0.51042in</Height>
+      <Height>0.52084in</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -423,7 +422,7 @@
                 <TextRun>
                   <Value>Account Report</Value>
                   <Style>
-                    <FontSize>14pt</FontSize>
+                    <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
                   </Style>
                 </TextRun>
@@ -435,7 +434,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
           <Top>0.06125in</Top>
-          <Height>0.25in</Height>
+          <Height>0.39014in</Height>
           <Width>8.5in</Width>
           <Style>
             <Border>
