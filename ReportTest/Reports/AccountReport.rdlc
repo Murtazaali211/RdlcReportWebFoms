@@ -270,6 +270,14 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Name</rd:DefaultName>
+                      <ActionInfo>
+                        <Actions>
+                          <Action>
+                            <Hyperlink>="javascript:void(window.open('http://localhost:62878/Reports/Products.aspx?Id=" &amp; Fields!Id.Value &amp; "&amp;Name=" &amp; Fields!Name.Value &amp; "'))"</Hyperlink>
+                          </Action>
+                        </Actions>
+                      </ActionInfo>
+                      <ToolTip>="javascript:void(window.open('http://localhost:62878/Reports/Products.aspx?Id=" &amp; Fields!Id.Value &amp; "&amp;Name=" &amp; Fields!Name.Value &amp; "'))"</ToolTip>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -406,7 +414,7 @@
     <Height>0.6875in</Height>
     <Style />
   </Body>
-  <Width>8.5in</Width>
+  <Width>8.5625in</Width>
   <Page>
     <PageHeader>
       <Height>0.52084in</Height>

@@ -36,9 +36,12 @@ namespace ReportTest.Reports
                     reportDataSet.Tables["Account"].Merge(dt);
                     ReportViewer1.ProcessingMode = ProcessingMode.Local;
                     ReportViewer1.LocalReport.ReportPath = Server.MapPath("AccountReport.rdlc");
-                    ReportDataSource dataSource = new ReportDataSource("ReportDataSet", reportDataSet.Tables["Account"]);
+                    ReportDataSource dataSource = new ReportDataSource("ReportDataSet", reportDataSet.Tables["Account"]);                    
+                    ReportViewer1.LocalReport.EnableHyperlinks = true;
                     ReportViewer1.LocalReport.DataSources.Clear();
                     ReportViewer1.LocalReport.DataSources.Add(dataSource);
+                    ReportViewer1.LocalReport.Refresh();
+
                 }
             }
         }
